@@ -1,0 +1,7 @@
+.banner{
+    background-image: url('../img/shutterstock_116403520.jpg');
+    background-size: cover;
+    width: 100%;
+    min-height:400px ;
+    height: auto;
+}

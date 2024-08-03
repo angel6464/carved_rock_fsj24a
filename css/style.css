@@ -1,7 +1,40 @@
+/**estilos para el banner*/
 .banner{
     background-image: url('../img/shutterstock_116403520.jpg');
     background-size: cover;
+    object-fit: cover;
     width: 100%;
-    min-height:400px ;
+    min-height:540px ;
     height: auto;
 }
+
+/**estilos para el color de fondo del footer*/
+.color-gris-oscuro{
+    background-color: #414040;
+    color: white;
+}
+
+/**estilo para la imagen del footer*/
+.imgagenestilo{
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+
+/**Uso de media query para responsive*/
+@media(max-width: 576px){
+    .banner{
+        min-height: 200px;
+    }
+   
+    
+}
+
+/**Uso de media query para responsive*/
+@media(max-width: 768px){
+    .banner{
+        min-height: 250px;
+    }
+   
+}
+

@@ -24,6 +24,7 @@
 /**Uso de media query para responsive*/
 @media(max-width: 576px){
     .banner{
+        width: 100%;
         min-height: 200px;
     }
    
@@ -33,6 +34,7 @@
 /**Uso de media query para responsive*/
 @media(max-width: 768px){
     .banner{
+        width: 100%;
         min-height: 250px;
     }
    
